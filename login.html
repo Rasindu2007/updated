@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+     <a href="file:///C:/Users/Nadun%20Aparna/OneDrive/Desktop/web%20presentation/Newweb.html">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            background-image:url(https://cdn.pixabay.com/photo/2017/09/27/13/37/srilanka-2792097_640.jpg);
+            background-size: cover;
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .login-container {
+            background-color: #fff;
+            background: transparent;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .login-container h2 {
+            text-align: center;
+        }
+        .login-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            font-weight: bold;
+            margin-bottom: 5px;
+            display: block;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form-group button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            background: transparent;
+        }
+    </style>
+</head>
+<body>
+
+<div class="login-container">
+    <h2>Login</h2>
+    <form class="login-form" action="login_process.php" method="post">
+        <div class="form-group">
+            <label for="username">Username:</label><script src="https://apis.google.com/js/platform.js" async defer></script>
+            
+            <input type="text" id="username" name="username" required>
+            <script>
+                function performSearch() {
+                    var searchInput = document.getElementById('search-input').value;
+                    alert('Performing search for: ' + searchInput);
+                    // Add your search logic here
+                }
+            </script>
+
+        </div>
+        <div class="form-group">
+            <label for="password">Password:</label><script src="https://apis.google.com/js/platform.js" async defer></script>
+            <input type="password" id="password" name="password" required>
+            <script>
+                function performSearch() {
+                    var searchInput = document.getElementById('search-input').value;
+                    alert('Performing search for: ' + searchInput);
+                    // Add your search logic here
+                }
+            </script>
+        </div>
+        <div class="form-group">
+            <button type="submit">froger password</button><script src="https://apis.google.com/js/platform.js" async defer></script>
+            <button type="submit">sing up</button><script src="https://apis.google.com/js/platform.js" async defer></script>
+            <script>
+                function performSearch() {
+                    var searchInput = document.getElementById('search-input').value;
+                    alert('Performing search for: ' + searchInput);
+                    // Add your search logic here
+                }
+            </script>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
